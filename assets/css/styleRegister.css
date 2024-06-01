@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	background-color: #F6F7FB;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2D;
+}
+.form-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px 100px;
+	box-shadow: 3px 3px 10px 0px #000;
+	border-radius: 10px;
+	width: 70vw;
+	height: 550px;
+	background-color: #FFFFFF;
+}
+.text-judul{
+	font-weight: bold;
+	font-size: 30px;
+}
+.form-control{
+	font-size: 12px;
+}
+.text-login{
+	text-decoration: none;
+}
+.text-merah{
+	color: red;
+	font-weight: bold;
+}
+
+.message-error{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.message-success{
+    text-align: center;
+    background: rgb(5, 198, 60);
+    padding: 15px 0px;
+    border:1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
